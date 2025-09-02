@@ -1,3 +1,4 @@
+import 'package:app_canal/home/widget/home_page.dart';
 import 'package:app_canal/login/register_page.dart';
 import 'package:app_canal/servicos/autenticacao_servico.dart';
 import 'package:flutter/material.dart';
@@ -115,7 +116,7 @@ class _LoginPageState extends State<LoginPage> {
                     String senha = senhaController.text;
 
                     if (formKey.currentState!.validate()) {
-                      final mensagem = await autenServico.cadastroValido(
+                      final mensagem = await autenServico.loginUsuario(
                         email: email,
                         senha: senha,
                       );
@@ -132,9 +133,7 @@ class _LoginPageState extends State<LoginPage> {
                         if (mensagem.contains("sucesso")) {
                           Navigator.push(
                             context,
-                            MaterialPageRoute(
-                              builder: (context) => LoginPage(),
-                            ),
+                            MaterialPageRoute(builder: (context) => HomePage()),
                           );
                         }
                       });

@@ -35,13 +35,12 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: '',
-    appId: '',
-    messagingSenderId: '',
-    projectId: '',
-    authDomain: '',
-    storageBucket: '',
-    measurementId: '',
+    apiKey: "AIzaSyBYzKvTWx__3VM068n5h7EjiOsWXfM2qbQ",
+    authDomain: "app-canal-35bfe.firebaseapp.com",
+    projectId: "app-canal-35bfe",
+    storageBucket: "app-canal-35bfe.appspot.com", // 🔥 corrigido
+    messagingSenderId: "929820335166",
+    appId: "1:929820335166:web:ab06b16ff197508015856f",
   );
 
   static const FirebaseOptions android = FirebaseOptions(
