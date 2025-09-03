@@ -55,5 +55,6 @@ app.*.map.json
 ### Firebase Patch ###
 .runtimeconfig.json
 .firebase/
+/lib/servicos/firebase_options.dart
 
 # End of https://www.toptal.com/developers/gitignore/api/firebase
