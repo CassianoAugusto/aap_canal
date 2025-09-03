@@ -19,14 +19,10 @@ class _RegisterPageState extends State<RegisterPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Voltar', style: TextStyle(color: Colors.blue)),
-        automaticallyImplyLeading: true,
-      ),
       backgroundColor: Colors.white,
       body: SingleChildScrollView(
         child: SingleChildScrollView(
-          padding: const EdgeInsets.all(16),
+          padding: const EdgeInsets.symmetric(vertical: 30, horizontal: 12),
           child: Form(
             key: formKey,
             child: Column(
@@ -50,7 +46,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   ),
                   child: TextFormField(
                     validator: (String? value) {
-                      if (value == null) {
+                      if (value == null || value.isEmpty) {
                         return "o email não pode ser vazio";
                       }
                       if (value.length < 5) {

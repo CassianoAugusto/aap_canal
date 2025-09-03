@@ -38,17 +38,17 @@ class DefaultFirebaseOptions {
     apiKey: "AIzaSyBYzKvTWx__3VM068n5h7EjiOsWXfM2qbQ",
     authDomain: "app-canal-35bfe.firebaseapp.com",
     projectId: "app-canal-35bfe",
-    storageBucket: "app-canal-35bfe.appspot.com", // 🔥 corrigido
+    storageBucket: "app-canal-35bfe.firebasestorage.app",
     messagingSenderId: "929820335166",
     appId: "1:929820335166:web:ab06b16ff197508015856f",
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: '',
-    appId: '',
-    messagingSenderId: '',
-    projectId: '',
-    storageBucket: '',
+    apiKey: 'AIzaSyBYzKvTWx__3VM068n5h7EjiOsWXfM2qbQ',
+    appId: '1:929820335166:android:5dab45d62ebfa01115856f',
+    messagingSenderId: '929820335166',
+    projectId: 'app-canal-35bfe',
+    storageBucket: 'app-canal-35bfe.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
