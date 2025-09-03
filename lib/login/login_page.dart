@@ -1,4 +1,4 @@
-import 'package:app_canal/home/widget/home_page.dart';
+import 'package:app_canal/home/home_page.dart';
 import 'package:app_canal/login/register_page.dart';
 import 'package:app_canal/servicos/autenticacao_servico.dart';
 import 'package:flutter/material.dart';

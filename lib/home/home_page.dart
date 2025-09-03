@@ -15,6 +15,7 @@ class HomePage extends StatelessWidget {
               color: Colors.blue,
             ),
           ),
+          SizedBox(height: 24),
         ],
       ),
     );

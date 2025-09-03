@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "929820335166",
+    "project_id": "app-canal-35bfe",
+    "storage_bucket": "app-canal-35bfe.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929820335166:android:5dab45d62ebfa01115856f",
+        "android_client_info": {
+          "package_name": "com.example.app_canal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFBH3UwJXPT5YpHBb5L6H8O0pcc-diFWU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
