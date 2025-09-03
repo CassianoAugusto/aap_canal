@@ -1,3 +1,8 @@
+# resumo-do-lab
+Este projeto é um aplicativo de **Guia de TV e Programação** desenvolvido em **Flutter/Dart**, com autenticação de usuários usando **Firebase**. O app permite criar contas, fazer login e acessar a programação de canais de TV de forma dinâmica.
+
+
+
 # app_canal
 
 A new Flutter project.
@@ -23,3 +28,4 @@ O aplicativo foi testado nas seguintes funcionalidades:
 
 4. **Persistência de dados**
    - Sessão do usuário permanece ativa após fechar o app.
+
