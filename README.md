@@ -7,25 +7,21 @@ Este projeto é um aplicativo de **Guia de TV e Programação** desenvolvido em 
 
 A new Flutter project.
 
-## Testes do Aplicativo
+## Funcionalidades
 
-O aplicativo foi testado nas seguintes funcionalidades:
+- **Login e Cadastro**
+  - Criar conta com email e senha no Firebase.
+  - Efetuar login com credenciais válidas.
+  - Mensagens de erro para login inválido ou campos obrigatórios.
 
-1. **Login e Cadastro**
-   - Criar nova conta com email e senha no Firebase.
-   - Efetuar login com email e senha válidos.
-   - Validação de campos obrigatórios (email e senha).
-   - Mensagem de erro para login inválido.
+- **Guia de TV**
+  - Lista de canais de TV.
+  - Programação diária de cada canal.
 
-2. **Guia de TV e Programação**
-   - Acesso à lista de canais de TV.
-   - Visualização da programação diária por canal.
-   - Atualização dinâmica da programação.
+- **Navegação**
+  - Entre telas de login, cadastro e guia de TV.
+  - Botões de voltar e navegação intuitiva.
 
-3. **Navegação**
-   - Navegação entre telas de login, cadastro e guia de TV.
-   - Botões de voltar funcionando corretamente.
-
-4. **Persistência de dados**
-   - Sessão do usuário permanece ativa após fechar o app.
+- **Persistência**
+  - Sessão do usuário permanece ativa mesmo após fechar o app.
 
